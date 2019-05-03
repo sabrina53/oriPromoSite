@@ -61,7 +61,7 @@ overflow-x: hidden;
 }
 
 .leftCon {
-	display: grid;
+display: grid;
 grid-template-columns: repeat(6,1fr);
 
 }
@@ -419,6 +419,7 @@ width: 400px;
 }
 .horizontalsticky {
 	display: none;
+
 }
 
 .horizontal {
@@ -711,6 +712,8 @@ width: 	100vh;
 	display: block;
 	grid-column: 2/4;
 	width: 160px;
+		height: 50px;
+
 	padding-top: 30px;
 	padding-left: 30px;
 }
